@@ -1,0 +1,52 @@
+#sectionTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7% 30% 7% 30%;
+}
+#specificationLogo img{
+    height: 60px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+#specificationBelow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#specificationBelowDetails{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 30px;
+}
+.specificationItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:5px;
+}
+.specificationItem img{
+    width: 15px;
+    margin: 10px;
+}
+.specificationItemSpecial{
+    margin-left: 60px;
+}
+.itemHead{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.itemDetails{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+
+#specificationImage img{
+    height: 220px;
+}

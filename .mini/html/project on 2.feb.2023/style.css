@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(249, 202, 156);
+        font-family: cursive;
+
+}
+
+/* this is for nav bar */
+
+header nav{
+     position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: peru;
+   
+}
+#logo{
+    display: flex;
+    margin-left: 100px;
+    padding: 10px;
+}
+#logo span{
+    margin-top: 12px;
+    margin-left: 10px;
+    color: purple;
+    
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+#logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+#logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+ .logo-section {
+    margin: 10px;
+    font-size: 44px;
+    margin-left: 30px;
+    text-decoration: solid;
+    color: rgb(245, 204, 163);
+    text-decoration: none;
+
+}
+#our-mark img{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+#img_one{
+    margin-top: 1000px;
+}
+
+
+/* this is for article */
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    align-items: center;
+}
+#section_left_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#section_left_part h1{
+    font-size: 56px;
+    color: peru;
+    margin-bottom: 20px;
+}
+#section_left_part p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: peru;
+
+}
+#section_left_part button{
+    padding: 20px;
+    font-size: 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(238, 194, 150);
+    background-color: peru;
+}
+
+#section_right_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#upper_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#lower_img{
+   
+    border-radius: 70px;
+    margin-top: 30px;
+
+}
+#img1,#img2{
+    height:300px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 20px;
+}
+#img1{
+    margin-top: 170px;
+}
+#img3{
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+    margin: 20px 20px 20px 280px;
+}
+
+
+
+
+
+
+/* this is for footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+    background-color: peru;
+}
+.footer_text{
+    font-weight: 600;
+    font-size: 22px;
+
+}
+.footer_link_list{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    list-style-type: none;
+    
+}
+.footer_link_list_item{
+    margin: 3px;
+    font-size: 50px;
+    padding: 30px;
+}
+.footer_link_list_item a{
+    text-decoration: none;
+    color: black;
+
+}

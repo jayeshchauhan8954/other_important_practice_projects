@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    background: rgb(15, 15, 16);
+}

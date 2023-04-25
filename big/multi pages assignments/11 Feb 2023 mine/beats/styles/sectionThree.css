@@ -1,0 +1,45 @@
+#sectionThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7% 30% 7% 30%;
+}
+#caseLogo img{
+    height: 50px;
+    margin: 30px;
+    margin-bottom: 70px;
+}
+#caseBelowPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#caseBelowImage img{
+    height: 350px;
+    margin-right: 70px;
+}
+#caseBelowRightPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+}
+#caseBelowRightDetails p{
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#caseBelowRightMoreInfo{
+    background-color: rgb(52, 50, 50);
+    border-radius: 8%;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
